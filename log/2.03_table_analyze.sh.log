@@ -1,0 +1,25 @@
+set optimizer= off;
+SET
+Timing is on.
+analyze equipment.eqp_info	;
+ANALYZE
+Time: 14.677 ms
+analyze equipment.eq_data_raw_inc ;
+ANALYZE
+Time: 23216.867 ms
+analyze equipment.eq_data_raw_with_array_inc ;
+ANALYZE
+Time: 22277.688 ms
+analyze equipment.param_info ;
+ANALYZE
+Time: 310.563 ms
+analyze equipment.process_info ;
+ANALYZE
+Time: 7.470 ms
+analyze equipment.step_info ;
+ANALYZE
+Time: 37.255 ms
+analyze equipment.unit_info ;
+ANALYZE
+Time: 85.761 ms
+Result:|./2.03_table_analyze.sh|2022-12-06 08:39:52|2022-12-06 08:40:38|46
